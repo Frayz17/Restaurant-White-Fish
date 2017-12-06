@@ -592,6 +592,9 @@ a {
         background: rgba(170, 170, 170, 0.4); }
       .contact-page .contact-page-form .wrapper .contact-page-form-button:focus {
         outline: none; }
+  @media (max-width: 767px) {
+    .contact-page .contact-page-textBlock {
+      margin-left: 35px; } }
 
 footer {
   background-color: #222222;
