@@ -1,5 +1,3 @@
-
-
 $mainDark: #5b5b5b;
 $mainGold: #cc9900;
 
@@ -228,7 +226,6 @@ a {
 		position: relative;
 		background-color: #f6f6f6;
 		text-align: center;
-		// padding: 15px 15px;
     min-height: 403px;
     border-radius: 10px;
     .tall-img {
@@ -297,7 +294,6 @@ a {
   padding-top: 50px;
   .narrow-page-title {
   	display: inline-block;
-  	// padding-top: 12%;
   	color: white;
   	font-family: $openSans;
   	font-weight: 300;
@@ -373,9 +369,6 @@ a {
 		-moz-box-shadow: 5px 10px 32px -3px rgba(136,136,136,1);
 		box-shadow: 5px 10px 32px -3px rgba(136,136,136,1);
 		margin: 15px 0;
-		// padding: 10%;
-		// padding-top: 10%;
-		// padding-bottom: 10%;
 		min-height: 200px;	
 	  .sets-page-chutney-imgbox {
 	  	float: right;
@@ -463,56 +456,7 @@ a {
 			margin-right: auto;
 			max-width: 208px;
 		}
-		.sets-page-smallImg-card {
-			.sets-page-chutney-textbox {
-				.sets-page-bag-add {
-					// left: 30%;
-				}
-			}		
-		}
 	}
-
-	// .sets-page-smallImg-left {
-	// 	background-color: #f6f6f6;
-	// 	text-align: center;	
-	// 	padding: 0px 15px;
- //    min-height: 200px;
- //    .small-img-paddingUp {
- //    	padding-top: 10%;	
- //    }
-	// 	.sets-page-bag {
-	// 			-webkit-box-shadow: 0px 0px 15px 0px rgba(170,170,170,1);
-	// 			-moz-box-shadow: 0px 0px 15px 0px rgba(170,170,170,1);
-	// 			box-shadow: 0px 0px 15px 0px rgba(170,170,170,1);
-	// 			padding: 7px 10px;
-	// 			border-radius: 20px;
-	// 	  	position: absolute;
-	// 	  	left: 15%;
-	//     	bottom: 10%;
-	//     	background-color: white;
-	// 	  }
-	// }
-
-	// .sets-page-smallImg-right {
-	// 	background-color: #f6f6f6;
-	// 	text-align: center;
-	// 	padding: 0px 15px;
- //    min-height: 200px;
- //    .small-img-paddingUp {
- //    	padding-top: 10%;	
- //    }
-	// 	.sets-page-bag {
-	// 			-webkit-box-shadow: 0px 0px 15px 0px rgba(170,170,170,1);
-	// 			-moz-box-shadow: 0px 0px 15px 0px rgba(170,170,170,1);
-	// 			box-shadow: 0px 0px 15px 0px rgba(170,170,170,1);
-	// 			padding: 7px 10px;
-	// 			border-radius: 20px;
-	// 	  	position: absolute;
-	// 	  	left: 15%;
-	//     	bottom: 20%;
-	//     	background-color: white;
-	// 	  }
-	// }
 
 }
 
@@ -790,8 +734,13 @@ a {
 			.contact-page-form-button:focus {
 			 	outline: none;	    	
 			}
+		}		
+	}
+
+	@media (max-width: 767px) {
+		.contact-page-textBlock  {
+			margin-left: 35px;
 		}
-			
 	}
 }
 
